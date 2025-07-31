@@ -13,8 +13,8 @@ python -m pip install --proxy http://tempuser1:rgukt123@staffnet.rgukt.ac.in:312
 2) npm (JavaScript package install via proxy) [both commads are working]
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-npm --proxy=http://tempuser1:rgukt123@staffnet.rgukt.ac.in:3128 install <package-name>
-npm --https-proxy=http://tempuser1:rgukt123@staffnet.rgukt.ac.in:3128 install <package-name>
+npm --proxy=http://tempuser1:rgukt123@staffnet.rgukt.ac.in:3128 install <package-name><br>
+npm --https-proxy=http://tempuser1:rgukt123@staffnet.rgukt.ac.in:3128 install <package-name><br>
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -23,8 +23,8 @@ npm --https-proxy=http://tempuser1:rgukt123@staffnet.rgukt.ac.in:3128 install <p
 3) curl (HTTP request via proxy)
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-curl --proxy http://tempuser1:rgukt123@staffnet.rgukt.ac.in:3128 http://example.com [bash termial]
-for windows : wget -e use_proxy=yes -e http_proxy=http://tempuser1:rgukt123@staffnet.rgukt.ac.in:3128 http://example.com
+curl --proxy http://tempuser1:rgukt123@staffnet.rgukt.ac.in:3128 http://example.com [bash termial]<br>
+for windows : wget -e use_proxy=yes -e http_proxy=http://tempuser1:rgukt123@staffnet.rgukt.ac.in:3128 http://example.com<br>
   
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -32,10 +32,10 @@ for windows : wget -e use_proxy=yes -e http_proxy=http://tempuser1:rgukt123@staf
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 4) Git usage : 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-i) adding remote orgin :=> git -c http.proxy=http://tempuser1:rgukt123@staffnet.rgukt.ac.in:3128 remote add origin https://github.com/user/repo.git
-ii) push               :=> git -c http.proxy=http://tempuser1:rgukt123@staffnet.rgukt.ac.in:3128 push origin main
-iii)Fetch              :=> git -c http.proxy=http://tempuser1:rgukt123@staffnet.rgukt.ac.in:3128 fetch origin
-iv)clone               :=> git -c http.proxy=http://tempuser1:rgukt123@staffnet.rgukt.ac.in:3128 clone https://github.com/user/repo.git
+i) adding remote orgin :=> git -c http.proxy=http://tempuser1:rgukt123@staffnet.rgukt.ac.in:3128 remote add origin https://github.com/user/repo.git<br>
+ii) push               :=> git -c http.proxy=http://tempuser1:rgukt123@staffnet.rgukt.ac.in:3128 push origin main<br>
+iii)Fetch              :=> git -c http.proxy=http://tempuser1:rgukt123@staffnet.rgukt.ac.in:3128 fetch origin<br>
+iv)clone               :=> git -c http.proxy=http://tempuser1:rgukt123@staffnet.rgukt.ac.in:3128 clone https://github.com/user/repo.git<br>
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
