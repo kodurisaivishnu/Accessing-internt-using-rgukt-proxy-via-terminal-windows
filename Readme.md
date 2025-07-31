@@ -2,9 +2,9 @@
 1) pip (Python package install via proxy):
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   
-pip install --proxy http://tempuser1:rgukt123@staffnet.rgukt.ac.in:3128 <package-name>
- or 
-python -m pip install --proxy http://tempuser1:rgukt123@staffnet.rgukt.ac.in:3128 <package-name>
+pip install --proxy http://tempuser1:rgukt123@staffnet.rgukt.ac.in:3128 <package-name <br>
+ or <br>
+python -m pip install --proxy http://tempuser1:rgukt123@staffnet.rgukt.ac.in:3128 <package-name> <br>
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
