@@ -1,4 +1,4 @@
-##Note :  use <b>username<b> insted of tempuser1 and use <b>password<b> instead of rgukt123
+## Note :  use <u>username</u> insted of tempuser1 and use <u>password</u> instead of rgukt123
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 1) pip (Python package install via proxy):
