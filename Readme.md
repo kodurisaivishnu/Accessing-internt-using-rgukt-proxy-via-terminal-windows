@@ -35,7 +35,7 @@ for windows : wget -e use_proxy=yes -e http_proxy=http://tempuser1:rgukt123@staf
 i) adding remote orgin :=> git -c http.proxy=http://tempuser1:rgukt123@staffnet.rgukt.ac.in:3128 remote add origin https://github.com/user/repo.git <br>
 ii) push               :=> git -c http.proxy=http://tempuser1:rgukt123@staffnet.rgukt.ac.in:3128 push origin main <br>
 iii)Fetch              :=> git -c http.proxy=http://tempuser1:rgukt123@staffnet.rgukt.ac.in:3128 fetch origin <br>
-iv)clone               :=> git -c http.proxy=http://tempuser1:rgukt123@staffnet.rgukt.ac.in:3128 clone https://github.com/user/repo.git <br>
+iv)clone               :=> git -c http.proxy=http://tempuser1:rgukt123@staffnet.rgukt.ac.in:3128 clone https://github.com/user/repo.git <br> 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
